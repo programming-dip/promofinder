@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# OpenAI Crawlers (ChatGPT & SearchGPT)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google Gemini & Extended Crawlers
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+# Bing / Microsoft Copilot
+User-agent: bingbot
+Allow: /
+
+Sitemap: https://promofinder.com.au/sitemap-index.xml

@@ -1,0 +1,172 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const siteUrl = "https://promofinder.com.au/contact/";
+const pageTitle = "Contact Us - PromoFinder Australia";
+const pageDescription = "Have a question, feedback, or a verified Australian promo code to submit? Contact the PromoFinder team.";
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={siteUrl} />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
+
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:type" content="website" />
+
+    <!-- SweetAlert2 CDN -->
+    <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body class="bg-base-200/30 text-base-content min-h-screen flex flex-col justify-between">
+    
+    <Header />
+
+    <main class="max-w-2xl mx-auto px-4 py-10 w-full">
+      <div class="text-xs breadcrumbs mb-6">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+
+      <article class="bg-base-100 p-8 md:p-10 rounded-2xl border border-base-300 shadow-sm">
+        <header class="mb-8">
+          <h1 class="text-2xl md:text-3xl font-black text-base-content tracking-tight">Get in Touch</h1>
+          <p class="text-sm text-base-content/70 mt-2">
+            Have a question, found an expired discount code, or want to submit a new Australian promo? Send us a message below. Or email us at: <a href="mailto:contact@promofinder.com.au" class="text-primary hover:underline">contact@promofinder.com.au</a>
+          </p>
+        </header>
+
+        <form id="contact-form" action="https://splitforms.com/api/submit" method="POST" class="space-y-5">
+          <!-- Hidden SplitForms Credentials -->
+          <input type="hidden" name="access_key" value="5975be0f9b014cd2bcd575681ab242ba" />
+          <input type="hidden" name="subject" value="New contact form submission" />
+
+          <!-- Anti-Spam Honeypot -->
+          <input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off" />
+
+          <!-- Name Field -->
+          <div class="form-control">
+            <label class="label pb-1.5" for="name">
+              <span class="label-text font-bold text-xs uppercase tracking-wider text-base-content/80">Your Name *</span>
+            </label>
+            <input 
+              id="name" 
+              type="text" 
+              name="name" 
+              placeholder="Jane Builder" 
+              required 
+              class="input input-bordered w-full rounded-lg focus:border-warning focus:outline-none"
+            />
+          </div>
+
+          <!-- Email Field -->
+          <div class="form-control">
+            <label class="label pb-1.5" for="email">
+              <span class="label-text font-bold text-xs uppercase tracking-wider text-base-content/80">Email Address *</span>
+            </label>
+            <input 
+              id="email" 
+              type="email" 
+              name="email" 
+              placeholder="jane@example.com" 
+              required 
+              class="input input-bordered w-full rounded-lg focus:border-warning focus:outline-none"
+            />
+          </div>
+
+          <!-- Message Field -->
+          <div class="form-control">
+            <label class="label pb-1.5" for="message">
+              <span class="label-text font-bold text-xs uppercase tracking-wider text-base-content/80">Message *</span>
+            </label>
+            <textarea 
+              id="message" 
+              name="message" 
+              rows="5" 
+              placeholder="What's on your mind?" 
+              required 
+              class="textarea textarea-bordered w-full rounded-lg focus:border-warning focus:outline-none text-sm"
+            ></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="pt-2">
+            <button 
+              id="submit-btn" 
+              type="submit" 
+              class="btn btn-warning w-full font-black text-sm tracking-wider uppercase shadow hover:shadow-md transition cursor-pointer"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+      </article>
+    </main>
+
+    <Footer />
+
+    <!-- SweetAlert2 AJAX Form Submission -->
+    <script is:inline>
+      const form = document.getElementById('contact-form');
+      const submitBtn = document.getElementById('submit-btn');
+
+      if (form) {
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+
+          // Loading state
+          const originalText = submitBtn.textContent;
+          submitBtn.disabled = true;
+          submitBtn.textContent = 'Sending...';
+
+          const formData = new FormData(form);
+
+          try {
+            const response = await fetch(form.action, {
+              method: 'POST',
+              body: formData,
+              headers: {
+                'Accept': 'application/json'
+              }
+            });
+
+            if (response.ok) {
+              Swal.fire({
+                icon: 'success',
+                title: 'Message Sent!',
+                text: 'Thank you for contacting us. We will get back to you shortly.',
+                confirmButtonColor: '#f59e0b',
+                confirmButtonText: 'OK'
+              });
+              form.reset();
+            } else {
+              throw new Error('Form submission failed');
+            }
+          } catch (error) {
+            Swal.fire({
+              icon: 'error',
+              title: 'Oops...',
+              text: 'Something went wrong while sending your message. Please try again later.',
+              confirmButtonColor: '#f59e0b',
+              confirmButtonText: 'Close'
+            });
+          } finally {
+            submitBtn.disabled = false;
+            submitBtn.textContent = originalText;
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

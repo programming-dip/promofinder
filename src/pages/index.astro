@@ -1,0 +1,62 @@
+---
+import CouponCard from "../components/CouponCard.astro";
+import deals from "../data/deals.json";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css"; // Adjust path if your CSS file is in another location
+
+const siteTitle = "Best Australian Promo Codes & Coupons (2026)";
+const siteDescription =
+  "Verified discount codes, coupons, and cashback deals for Australian shoppers.";
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  itemListElement: deals.map((deal, idx) => ({
+    "@type": "ListItem",
+    position: idx + 1,
+    item: {
+      "@type": "Offer",
+      name: deal.title,
+      price: deal.price,
+      priceCurrency: "AUD",
+      seller: {
+        "@type": "Organization",
+        name: deal.brand,
+      },
+    },
+  })),
+};
+---
+
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{siteTitle}</title>
+    <meta name="description" content={siteDescription} />
+    <link rel="canonical" href="https://promofinder.com.au" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </head>
+  <body class="bg-base-200/40 min-h-screen text-base-content">
+    <Header />
+
+    <main class="max-w-4xl mx-auto px-4 py-8">
+      <div class="mb-6">
+        <h1 class="text-2xl font-black tracking-tight">
+          Today's Trending Discounts
+        </h1>
+        <p class="text-sm text-base-content/70">
+          Hand-verified coupon codes and online vouchers.
+        </p>
+      </div>
+
+      {deals.map((deal) => <CouponCard deal={deal} />)}
+    </main>
+
+    <Footer />
+  </body>
+</html>

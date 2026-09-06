@@ -1,0 +1,106 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const siteUrl = "https://promofinder.com.au/terms/";
+const pageTitle = "Terms of Service - PromoFinder Australia";
+const pageDescription = "Terms and Conditions governing the use of PromoFinder discount listings and promotional codes.";
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={siteUrl} />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
+
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body class="bg-base-200/30 text-base-content min-h-screen flex flex-col justify-between">
+    
+    <Header />
+
+    <main class="max-w-3xl mx-auto px-4 py-10 w-full">
+      <div class="text-xs breadcrumbs mb-6">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li>Terms of Service</li>
+        </ul>
+      </div>
+
+      <article class="bg-base-100 p-8 md:p-10 rounded-2xl border border-base-300 shadow-sm">
+        <h1 class="text-2xl md:text-3xl font-black text-base-content mb-2">Terms of Service</h1>
+        <p class="text-xs text-base-content/60 mb-8">Effective Date: September 2026</p>
+
+        <div class="space-y-6 text-sm leading-relaxed text-base-content/80">
+          <p>
+            Welcome to <strong>PromoFinder</strong> (<a href="https://promofinder.com.au" class="text-primary font-semibold">promofinder.com.au</a>). By accessing or browsing our website, you agree to comply with and be bound by the following Terms of Service. If you disagree with any part of these terms, please do not use our site.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">1. Nature of Service</h2>
+          <p>
+            PromoFinder is a free informational directory providing promotional codes, coupons, and discount information for third-party Australian and international retailers. PromoFinder is not an online store, does not sell products or services directly, and does not process payments.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">2. Accuracy of Coupons and Pricing</h2>
+          <p>
+            While we make every effort to verify promo codes and discounts, retailers may alter, revoke, or terminate promotional offers without prior notice. 
+          </p>
+          <ul class="list-disc pl-5 space-y-1">
+            <li>We do not warrant that all coupon codes, markdown prices, or discount claims will be active, valid, or error-free at the time of your visit.</li>
+            <li>Always confirm pricing and discount deductions directly on the merchant's checkout page before finalizing a transaction.</li>
+          </ul>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">3. Third-Party Transactions & Merchant Liability</h2>
+          <p>
+            Any purchase, subscription, or contract you enter into is strictly between you and the respective third-party retailer or app provider. PromoFinder is not responsible or liable for:
+          </p>
+          <ul class="list-disc pl-5 space-y-1">
+            <li>Product defects, delivery delays, or shipping discrepancies.</li>
+            <li>Merchant billing errors, refund disputes, or return policies.</li>
+            <li>Content, availability, or actions of external websites.</li>
+          </ul>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">4. Affiliate Disclosure</h2>
+          <p>
+            PromoFinder participates in affiliate marketing programs. Clicking certain promo links or redeeming coupon codes may result in our receiving an affiliate commission from the partner merchant. This occurs at zero additional cost to you.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">5. Intellectual Property</h2>
+          <p>
+            All retailer logos, product images, and brand names featured on PromoFinder are the trademarks and intellectual property of their respective copyright holders. Their display does not imply formal endorsement, partnership, or sponsorship unless explicitly indicated.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">6. Limitation of Liability</h2>
+          <p>
+            To the maximum extent permitted under the <em>Competition and Consumer Act 2010 (Australian Consumer Law)</em>, PromoFinder and its operators shall not be liable for any direct, indirect, incidental, or consequential damages resulting from your use of, or inability to use, our website or third-party links.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">7. Governing Law</h2>
+          <p>
+            These Terms of Service are governed by and construed in accordance with the laws of New South Wales, Australia. Any disputes arising out of the use of this website shall be subject to the exclusive jurisdiction of the courts of New South Wales.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">8. Contact Information</h2>
+          <p>
+            For questions or queries regarding these Terms of Service, please reach out via:
+          </p>
+          <p class="font-medium text-base-content">
+            Email: <a href="mailto:contact@promofinder.com.au" class="text-primary hover:underline">contact@promofinder.com.au</a>
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <Footer />
+
+  </body>
+</html>

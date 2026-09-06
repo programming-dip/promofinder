@@ -1,0 +1,92 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const siteUrl = "https://promofinder.com.au/privacy-policy/";
+const pageTitle = "Privacy Policy - PromoFinder Australia";
+const pageDescription = "Read the Privacy Policy for PromoFinder. We respect your privacy and do not collect personal registration or payment details.";
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={siteUrl} />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png" />
+
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body class="bg-base-200/30 text-base-content min-h-screen flex flex-col justify-between">
+    
+    <Header />
+
+    <main class="max-w-3xl mx-auto px-4 py-10 w-full">
+      <div class="text-xs breadcrumbs mb-6">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+
+      <article class="bg-base-100 p-8 md:p-10 rounded-2xl border border-base-300 shadow-sm">
+        <h1 class="text-2xl md:text-3xl font-black text-base-content mb-2">Privacy Policy</h1>
+        <p class="text-xs text-base-content/60 mb-8">Effective Date: September 2026</p>
+
+        <div class="space-y-6 text-sm leading-relaxed text-base-content/80">
+          <p>
+            PromoFinder (<a href="https://promofinder.com.au" class="text-primary font-semibold">promofinder.com.au</a>) provides free promo codes, coupons, and discount listings for Australian retailers. We are committed to safeguarding your privacy in accordance with the <em>Australian Privacy Principles (Privacy Act 1988 Cth)</em>.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">1. Personal Information Collection</h2>
+          <p>
+            We do not require user accounts, email sign-ups, or payment submissions. We do not collect, store, or sell any personally identifiable information (PII) such as names, physical addresses, phone numbers, or credit card details.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">2. Affiliate Tracking & Cookies</h2>
+          <p>
+            PromoFinder participates in affiliate marketing programs. When you click an external link or reveal a coupon:
+          </p>
+          <ul class="list-disc pl-5 space-y-1">
+            <li>You may be redirected to the partner merchant or an affiliate network.</li>
+            <li>A temporary cookie may be stored in your browser to attribute sales and credit our site with a referral commission.</li>
+            <li>These cookies contain no personal identification and are governed by the respective retailer's privacy policy.</li>
+          </ul>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">3. Server Logs & Analytics</h2>
+          <p>
+            When you browse this site, our hosting infrastructure may automatically log basic, non-identifying technical data (such as your browser type, device type, referring page, and anonymized IP address) solely to monitor server performance, diagnose errors, and prevent cyber threats.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">4. External Websites</h2>
+          <p>
+            Our website contains links to third-party stores, online services, and official app platforms (such as the Apple App Store and Google Play). We have no authority over external sites and encourage you to review their individual privacy practices before completing purchases or transactions.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">5. Policy Updates</h2>
+          <p>
+            We may revise this Privacy Policy from time to time. Any modifications will be posted directly to this page with an updated effective date.
+          </p>
+
+          <h2 class="text-lg font-bold text-base-content pt-2">6. Contact Us</h2>
+          <p>
+            If you have questions regarding this policy or our affiliate disclosures, please contact us at:
+          </p>
+          <p class="font-medium text-base-content">
+            Email: <a href="mailto:contact@promofinder.com.au" class="text-primary hover:underline">contact@promofinder.com.au</a>
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <Footer />
+
+  </body>
+</html>
