@@ -6,9 +6,10 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  vite: {
-      plugins: [tailwindcss()],
-  },
-
-  integrations: [sitemap()],
+    vite: {
+        plugins: [tailwindcss()],
+    },
+    site: 'https://promofinder.com.au',
+    output: 'static',
+    integrations: [sitemap()],
 });
