@@ -2,11 +2,11 @@
     {
         "id": "my-muscle-chef-promo",
         "type": "both",
-        "slug": "my-muscle-chef-promo-code-40-off",
+        "slug": "my-muscle-chef-promo-code-20-off",
         "brand": "My Muscle Chef",
-        "title": "My Muscle Chef: Get $40 Off Your First Order ($99+ spend)",
-        "discount": "$40 OFF",
-        "price": "Save $40",
+        "title": "My Muscle Chef: Get $20 Off Your First Order ($99+ spend)",
+        "discount": "$20 OFF",
+        "price": "Save $20",
         "originalPrice": "99.00",
         "cashback": "Minimum spend $99 on first order",
         "code": "T66AN5LQ",
@@ -16,10 +16,10 @@
             "android": "https://play.google.com/store/apps/details?id=com.mymusclechef.app"
         },
         "image": "https://i.ibb.co/Q76HVt3b/0x0.png",
-        "description": "Use verified referral code T66AN5LQ at checkout to unlock $40 off your first My Muscle Chef order of $99 or more.",
+        "description": "Use verified referral code T66AN5LQ at checkout to unlock $20 off your first My Muscle Chef order of $99 or more.",
         "content": {
-            "heading": "My Muscle Chef Promo Code 2026: Get $40 Off Your First Order",
-            "intro": "Looking for a verified, working My Muscle Chef promo code? Skip the search and use referral code T66AN5LQ at checkout to unlock $40 off your first order (minimum spend $99).",
+            "heading": "My Muscle Chef Promo Code 2026: Get $20 Off Your First Order",
+            "intro": "Looking for a verified, working My Muscle Chef promo code? Skip the search and use referral code T66AN5LQ at checkout to unlock $20 off your first order (minimum spend $99).",
             "benefits": [
                 "Massive Protein Portions: Most meals pack between 40g to 60g of protein to help hit your fitness goals.",
                 "Fresh, Not Frozen: Delivered fresh with vacuum-sealed packaging that safely extends fridge shelf life.",
@@ -50,7 +50,7 @@
         "type": "code",
         "slug": "taptap-send-australia-promo-code",
         "brand": "TapTap Send",
-        "title": "TapTap Send Australia: Get Free AUD 20 Bonus",
+        "title": "TapTap Send Australia: Use ANUDIP2 - Get Free AUD 20 Bonus",
         "discount": "$20 BONUS",
         "price": "Free",
         "originalPrice": "20.00",
@@ -192,15 +192,15 @@
         }
     },
     {
-        "id": "doordash-dasher-referral-au",
+        "id": "doordash-dasher-referral-sydney-au",
         "type": "link",
-        "slug": "doordash-dasher-driver-referral-bonus",
+        "slug": "doordash-dasher-driver-referral-bonus-sydney",
         "brand": "DoorDash",
-        "title": "DoorDash Dasher Referral: Get $150 Sign-Up Bonus",
-        "discount": "$150 BONUS",
+        "title": "DoorDash Dasher Referral: Get $400 Sign-Up Bonus in Sydney",
+        "discount": "$400 BONUS",
         "price": "Free Bonus",
-        "originalPrice": "150.00",
-        "cashback": "Earn $150 bonus after 30 deliveries in 60 days",
+        "originalPrice": "400.00",
+        "cashback": "Earn $400 bonus after 30 deliveries in 60 days",
         "code": "",
         "affiliateUrl": "https://drd.sh/qBWSgYlHYAx7Za4e/",
         "appLinks": {
@@ -208,12 +208,12 @@
             "android": "https://play.google.com/store/apps/details?id=com.doordash.driverapp"
         },
         "image": "https://i.ibb.co/bMNFG710/dasher.png",
-        "description": "Sign up with verified DoorDash referral link to earn a $150 bonus after completing 30 deliveries in Sydney within 60 days.",
+        "description": "Sign up with verified DoorDash referral link to earn a $400 bonus after completing 150 deliveries in Sydney within 60 days.",
         "content": {
-            "heading": "DoorDash Dasher Referral Link 2026: Get $150 Sign-Up Bonus",
-            "intro": "Looking to become a DoorDash driver in Australia? Sign up using the official referral link to unlock a $150 bonus after completing 30 deliveries in Sydney within 60 days.",
+            "heading": "DoorDash Dasher Referral Link 2026: Get $400 Sign-Up Bonus",
+            "intro": "Looking to become a DoorDash driver in Australia? Sign up using the official referral link to unlock a $400 bonus after completing 30 deliveries in Sydney within 60 days.",
             "benefits": [
-                "Earn $150 Bonus: Both you and your referrer earn a $150 bonus upon completing the trip milestone.",
+                "Earn $400 Bonus: Both you and your referrer earn a $400 bonus upon completing the trip milestone.",
                 "Low Delivery Threshold: Complete just 30 deliveries within 60 days of accepting the invite.",
                 "Work on Your Schedule: Total flexibility to dash whenever and wherever you want.",
                 "Fast Cash Out: Access your daily earnings quickly through direct deposit or instant cash out."
@@ -223,7 +223,7 @@
                 "Create Your Dasher Account: Register your email, phone number, and city (Sydney).",
                 "Complete Onboarding: Submit required documents, driver's license, and background check.",
                 "Start Delivering: Complete 30 deliveries within 60 days of joining.",
-                "Get Paid: Receive your $150 referral bonus credited directly to your account."
+                "Get Paid: Receive your $400 referral bonus credited directly to your account."
             ],
             "faqs": [
                 {
@@ -231,7 +231,7 @@
                     "a": "No, this is a link-only offer. Clicking the link automatically tracks your referral status."
                 },
                 {
-                    "q": "Who is eligible for the $150 bonus?",
+                    "q": "Who is eligible for the $400 bonus?",
                     "a": "The referral offer is valid for new Dashers signing up to deliver in Sydney who complete 30 deliveries within 60 days."
                 },
                 {
