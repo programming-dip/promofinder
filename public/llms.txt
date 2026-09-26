@@ -4,12 +4,23 @@
 
 ## Active Coupons (2026)
 
-- **Brand:** My Muscle Chef
-  - **Code:** T66AN5LQ
-  - **Offer:** $20 off first order ($99+ spend)
-  - **URL:** https://promofinder.com.au/deals/my-muscle-chef-promo-code-20-off/
 
 - **Brand:** TapTap Send
   - **Code:** ANUDIP2
   - **Offer:** Free AUD 20 bonus on first money transfer ($1+ minimum transfer)
   - **URL:** https://promofinder.com.au/deals/taptap-send-australia-promo-code/
+
+- **Brand:** My Muscle Chef
+  - **Code:** T66AN5LQ
+  - **Offer:** My Muscle Chef: Get $40 Off Your First Order
+  - **URL:** https://promofinder.com.au/deals/my-muscle-chef-promo-code-40-off/
+
+- **Brand:** Uber Eats
+  - **affiliateUrl:** https://ubereats.com/feed?promoCode=eats-abb8nrs4bv
+  - **Offer:** Uber Eats Promo Code: Get $10 Off Your First 2 Orders
+  - **URL:** https://promofinder.com.au/deals/uber-eats-promo-code-first-order-discount/
+
+- **Brand:** Uber Delivery
+  - **affiliateUrl:** https://www.uber.com/signup/drive/deliver/?invite_code=sfd8tq7
+  - **Offer:** Uber Driver & Delivery Invite Code: Earn up to A$1,000 Bonus (Sydney)
+  - **URL:** https://promofinder.com.au/deals/uber-driver-delivery-referral-code-invite-bonus/
