@@ -24,3 +24,8 @@
   - **affiliateUrl:** https://www.uber.com/signup/drive/deliver/?invite_code=sfd8tq7
   - **Offer:** Uber Driver & Delivery Invite Code: Earn up to A$1,000 Bonus (Sydney)
   - **URL:** https://promofinder.com.au/deals/uber-driver-delivery-referral-code-invite-bonus/
+
+- **Brand:** DoorDash
+  - **affiliateUrl:** https://drd.sh/F40MnoM9ersgikIG/
+  - **Offer:** DoorDash Driver Referral: Get $600 Sign-Up Bonus in Australia
+  - **URL:** https://promofinder.com.au/deals/doordash-dasher-driver-referral-bonus-australia/
