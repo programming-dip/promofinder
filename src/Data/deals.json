@@ -192,38 +192,37 @@
         }
     },
     {
-        "id": "doordash-dasher-referral-sydney-au",
+        "id": "doordash-dasher-referral-au",
         "type": "link",
-        "slug": "doordash-dasher-driver-referral-bonus-sydney",
+        "slug": "doordash-dasher-driver-referral-bonus-australia",
         "brand": "DoorDash",
-        "title": "DoorDash Dasher Referral: Get $400 Sign-Up Bonus in Sydney",
-        "discount": "$400 BONUS",
+        "title": "DoorDash Driver Referral: Get $600 Sign-Up Bonus in Australia",
+        "discount": "$600 BONUS",
         "price": "Free Bonus",
-        "originalPrice": "400.00",
-        "cashback": "Earn $400 bonus after 30 deliveries in 60 days",
+        "originalPrice": "600.00",
+        "cashback": "Earn $600 bonus after 200 deliveries in 60 days",
         "code": "",
-        "affiliateUrl": "https://drd.sh/qBWSgYlHYAx7Za4e/",
+        "affiliateUrl": "https://drd.sh/F40MnoM9ersgikIG/",
         "appLinks": {
-            "ios": "https://apps.apple.com/au/app/doordash-driver/id1451087813",
+            "ios": "https://apps.apple.com/au/app/doordash-dasher/id1451754591",
             "android": "https://play.google.com/store/apps/details?id=com.doordash.driverapp"
         },
         "image": "https://i.ibb.co/bMNFG710/dasher.png",
-        "description": "Sign up with verified DoorDash referral link to earn a $400 bonus after completing 150 deliveries in Sydney within 60 days.",
+        "description": "Sign up with verified DoorDash referral link to earn a $600 bonus after completing 200 deliveries in Australia within 60 days.",
         "content": {
-            "heading": "DoorDash Dasher Referral Link 2026: Get $400 Sign-Up Bonus",
-            "intro": "Looking to become a DoorDash driver in Australia? Sign up using the official referral link to unlock a $400 bonus after completing 30 deliveries in Sydney within 60 days.",
+            "heading": "DoorDash Dasher Referral Link 2026: Get $600 Sign-Up Bonus",
+            "intro": "Looking to become a DoorDash driver in Australia? Sign up using the official referral link to unlock a $600 bonus after completing 200 deliveries in Australia within 60 days.",
             "benefits": [
-                "Earn $400 Bonus: Both you and your referrer earn a $400 bonus upon completing the trip milestone.",
-                "Low Delivery Threshold: Complete just 30 deliveries within 60 days of accepting the invite.",
+                "Low Delivery Threshold: Complete just 200 deliveries within 60 days of accepting the invite.",
                 "Work on Your Schedule: Total flexibility to dash whenever and wherever you want.",
                 "Fast Cash Out: Access your daily earnings quickly through direct deposit or instant cash out."
             ],
             "steps": [
                 "Click the Referral Link: Use the link above to head to the DoorDash signup page.",
-                "Create Your Dasher Account: Register your email, phone number, and city (Sydney).",
+                "Create Your Dasher Account: Register your email, phone number, and city.",
                 "Complete Onboarding: Submit required documents, driver's license, and background check.",
-                "Start Delivering: Complete 30 deliveries within 60 days of joining.",
-                "Get Paid: Receive your $400 referral bonus credited directly to your account."
+                "Start Delivering: Complete 200 deliveries within 60 days of joining.",
+                "Get Paid: Receive your $600 referral bonus credited directly to your account."
             ],
             "faqs": [
                 {
@@ -231,8 +230,8 @@
                     "a": "No, this is a link-only offer. Clicking the link automatically tracks your referral status."
                 },
                 {
-                    "q": "Who is eligible for the $400 bonus?",
-                    "a": "The referral offer is valid for new Dashers signing up to deliver in Sydney who complete 30 deliveries within 60 days."
+                    "q": "Who is eligible for the $600 bonus?",
+                    "a": "The referral offer is valid for new Dashers signing up to deliver in Sydney who complete 200 deliveries within 60 days."
                 },
                 {
                     "q": "What happens if I dash in a different city?",
