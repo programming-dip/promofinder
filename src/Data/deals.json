@@ -142,7 +142,6 @@
             ]
         }
     },
-
     {
         "id": "uber-driver-delivery-referral-au",
         "type": "link",
@@ -236,6 +235,61 @@
                 {
                     "q": "What happens if I dash in a different city?",
                     "a": "Referral terms and bonus amounts may vary if you register or complete deliveries outside of Sydney."
+                }
+            ]
+        }
+    },
+
+    {
+        "id": "up-bank-instant-15-bonus",
+        "type": "link",
+        "slug": "up-bank-referral-code-15-free-sign-up-bonus",
+        "brand": "Up Bank",
+        "title": "Up Bank Referral: Get Free $15 Instantly on Sign Up (Australia)",
+        "discount": "$15 FREE CASH",
+        "price": "Free Bonus",
+        "originalPrice": "15.00",
+        "cashback": "Instant $15 bonus upon account verification (no deposit required)",
+        "code": "",
+        "affiliateUrl": "https://hook.up.me/free_cash",
+        "appLinks": {
+            "ios": "https://apps.apple.com/au/app/up-simplify-money/id1350717115",
+            "android": "https://play.google.com/store/apps/details?id=au.com.up.money"
+        },
+        "image": "https://i.ibb.co/VYgCdZ4S/image.png",
+        "description": "Sign up with verified Up Bank referral link hook.up.me/free_cash to get a free $15 instant welcome bonus credited directly to your Australian account.",
+        "content": {
+            "heading": "Up Bank Referral Link 2026: Get Free $15 Instant Sign-Up Bonus",
+            "intro": "Looking for an instant $15 free sign-up bonus in Australia? Open a fee-free digital account via the verified Up invite link hook.up.me/free_cash and get $15 cash deposited straight into your balance the second your ID is verified—no initial deposit or spending criteria required.",
+            "benefits": [
+                "Instant $15 Cash Credit: Receive $15 directly into your Up Everyday account as soon as your registration and standard ID check are complete.",
+                "Zero Monthly Account Fees: Enjoy $0 monthly account-keeping fees, zero overseas transaction charges, and free domestic ATM withdrawals.",
+                "Instant Virtual Card: Add your digital Mastercard to Apple Pay or Google Wallet immediately to spend your $15 bonus in minutes.",
+                "Automated High-Interest Savings: Unlock competitive savings rates with customizable round-ups, split deposits, and multi-saver accounts.",
+                "Australian Government Guarantee: Up deposits are managed through Bendigo and Adelaide Bank Limited and covered by the Australian Financial Claims Scheme (FCS) up to $250,000."
+            ],
+            "steps": [
+                "Click the Referral Link: Visit https://hook.up.me/free_cash on your smartphone.",
+                "Install the Up App: Follow the prompt to download the official Up banking app from the App Store or Google Play Store.",
+                "Complete Registration: Enter your Australian mobile number and verify your identity using a standard Australian ID document.",
+                "Receive Free $15: Your $15 cash bonus is credited to your active wallet balance instantly upon account opening."
+            ],
+            "faqs": [
+                {
+                    "q": "How do I get the free $15 from Up Bank?",
+                    "a": "Tap the verified invite link https://hook.up.me/free_cash, download the Up app, and finish ID onboarding. The $15 welcome cash is transferred into your everyday balance immediately without requiring a qualifying purchase or top-up."
+                },
+                {
+                    "q": "Do I need a separate promo or promo referral code?",
+                    "a": "No manual code is necessary. Accessing the app through the hook.up.me/free_cash invite link automatically binds the $15 new-customer credit to your sign-up session."
+                },
+                {
+                    "q": "Is Up Bank safe and legit in Australia?",
+                    "a": "Yes. Up operates under Bendigo and Adelaide Bank's Australian Banking Licence (AFSL/ACL 237879) and all deposits are federally protected under the Australian Government Financial Claims Scheme up to $250,000."
+                },
+                {
+                    "q": "Are there any minimum deposit or spend requirements to withdraw the $15?",
+                    "a": "No. The $15 is unrestricted cash. You can transfer it out via PayID/Osko, spend it via your digital card, or leave it in your account to earn savings interest."
                 }
             ]
         }
